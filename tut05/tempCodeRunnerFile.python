@@ -1,0 +1,29 @@
+import csv
+import os
+os.system('cls')
+
+overall_list=[]
+i=0
+with open("grades.csv", "r") as f:
+    grade_r=csv.reader(f)
+    grade_list=list(grade_r)
+    print(grade_list)
+    '''for item in roll_list:
+        print(item)
+        roll_no=[]
+        print(i)
+        #for i in range(len(reader)):
+        while i<len(grade_list):
+            if grade_list[i][0]==item:
+                roll_no.append(row)
+                print("i", i)
+            i=i+1
+        overall_list.append(roll_no)'''
+                # above code has issue with i, blunder done
+print("hello coder")
+print(overall_list)
+#print(overall_list[0])
+        
+
+
+
