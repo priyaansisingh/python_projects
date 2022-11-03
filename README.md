@@ -10,7 +10,7 @@ gives a .csv file as output for post-processing. This project provides the facil
 number-wise mark sheets which can be mailed to the respective student. Along with that, a concise excel sheet is generated with the positive, and negative 
 marks and the total marks of every student in it. 
 
-This is achieved by using the libraries: STREAMLIT, OPENPYXL, and CSV. The facility of mailing the mark sheets is provided by using the EMAIL library
+This is achieved by using the libraries: STREAMLIT, OPENPYXL, and CSV. The facility of mailing the mark sheets is provided by using the EMAIL library.
 
 The input file given in here is two files: the response file of students and their information file.
 ___________________________________________________________________________________________________________________________________________________________
@@ -31,6 +31,6 @@ Here, we create a system that creates an Excel file of each student containing s
 and grades obtained by the student in that very semester. Also, an 'Overall' sheet is created which has the overall information about the SPI and CPI of 
 the student.
 
-The libraries used are CSV and openpyxl.
+The libraries used are CSV and OPENPYXL.
 
-The input file given in here is two files: the response file of students and their information file.
+The input files given in here are two files: the response file of students and their information file.
