@@ -4,7 +4,7 @@ ________________________________________________________________________________
 
 1. GUI-BASED MARK SHEET GENERATOR
 
-When the quiz is conducted on Google Forms, Google does not provide an option for computing -ve marking. It gives 0 marks for the wrong answer. It just 
+When the quiz is conducted on Google Forms, Google does not provide an option for computing -ve marking. It gives 0 marks for the wrong answer. It also 
 gives a .csv file as output for post-processing. This project provides the facility to incorporate the negative marking system, such that we input the
 .csv file, the positive marks on marking the right answer, and the negative marks on marking the wrong one in the GUI. It then generates roll 
 number-wise mark sheets which can be mailed to the respective student. Along with that, a concise excel sheet is generated with the positive, and negative 
